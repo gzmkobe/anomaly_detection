@@ -1,0 +1,18 @@
+# Generic Rstudio/Package Files
+.Rhistory
+.Rbuildignore
+.Rdata
+.Rproj.user
+
+# Other R files
+signal.R
+#Other
+*.pdf
+#Rcpp Files
+tsAnomaly/src/*.o
+tsAnomaly/src/*.so
+tsAnomaly/src/*.dll
+packrat/lib*
+packrat/lib*/
+
+env/

@@ -1,0 +1,23 @@
+Package: tsAnomaly
+Title: Univariate time series anomaly detection
+Version: 0.0.99.1
+Date: 2017-10-18
+License: BSD_3_clause + file LICENSE
+Authors@R: c(
+  person("Lucas", "Dowiak", email = "lucas@appfigures.com", role = c("aut", "cre"))
+  )
+Description: A suite of anomaly detection procedures that identify
+    outliers, shifts in means, and shifts in variance of a univariate
+    time series.
+Depends:
+    R (>= 3.2.3),
+Imports:
+    Rcpp (>= 0.12.13),
+    changepoint (>= 2.2.2),
+    zoo (>= 1.8-0),
+    jsonlite (>= 1.5),
+    MASS (>= 7.3-47),
+    isofor,
+LinkingTo: Rcpp
+LazyData: true
+RoxygenNote: 5.0.1
